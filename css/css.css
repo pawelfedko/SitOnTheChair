@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 12px;
+}
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    border: 1px solid red;
+    position: relative;
+}
+.container::before, .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header{
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 1rem;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+span {
+    color: deepskyblue;
+}
+nav{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    padding: 10px 5px;
+}
+.menu li {
+    display: inline-block;
+    height: 100%;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu:first-of-type li:hover {
+
+}
+
+
+
+/*Section A*/
+
+
+
+
+.sectionA {
+    background-color: whitesmoke;
+}
+aside{
+    display: inline-block;
+    height: 100%;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+
+}
+.chair {
+    background-image: url("../images/black_chair.png");
+    width: 470px;
+    height: 337px;
+    display: inline-block;
+    margin: 40px 0;
+}
+.span1{
+    color: lightseagreen;
+}
+.rightGT {
+    position: absolute;
+    right: -550px;
+}
+.artA{
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+}
+h2 {
+    font-size: 30px;
+    padding: 20px 0px;
+}
+.artA p {
+    line-height: 25px;
+}
+button {
+    background-color: lightseagreen;
+    padding: 5px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+}
+.next{
+    position: absolute;
+    top: 40%;
+    right: 0px;
+}
+
+
+
+/*SectionB*/
+
+
+
+.sectionB div article {
+    float: left;
+    width: 31%;
+    height: 200px;
+    margin: 20px 10px;
+    border: lightgray solid 1px;
+
+}
+.sectionB div article:first-of-type {
+    background-image: url("../images/box1_img.jpg");
+}
+.sectionB div article:nth-of-type(2) {
+     background-image: url("../images/box2_img.jpg");
+ }
+.sectionB div article:last-of-type {
+    background-color: transparent;
+}
+    .sectionB div article:last-of-type p {
+        padding: 10px;
+    }
+.subtitle {
+    width: 315px;
+    background-color: rgba(239,230,223,.7);
+    font-weight: 700;
+    position: absolute;
+    top: 170px;
+    padding-bottom: 6px;
+}
+.sectionB article h3 {
+    width: 150px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 4px solid lightseagreen;
+    padding: 2px;
+}
+.h3special {
+    margin: 10px
+}
+
+
+
+/*SectionC*/
+
+
+.head2{
+    width: 200px;
+    font-size: 20px;
+    border-bottom: 4px solid lightseagreen;
+    margin-left: 20px;
+}
+.sectionC {
+    background-color: lightgray;
+}
+
+.bookmark {
+    background-color: whitesmoke;
+    float: left;
+    height: 400px;
+    width: 30%;
+    border: 1px solid dimgrey;
+    text-align: center;
+    margin: 50px 0 50px 27px;
+
+    position: relative;
+}
+.bookmark h3 {
+    color: lightseagreen;
+}
+.bookmark .cena {
+    height: 100px;
+    width: 100px;
+    border: 1px solid dimgrey;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    padding: 35px 0;
+    margin: 20px 0;
+    background-color: white;
+}
+.bookmark span {
+}
+div.okrag {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid dimgrey;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: relative;
+    top: -25px;
+    left: 130px;
+
+}
+div.kolo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: dimgrey;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+.bookmark li {
+    list-style: none;
+    padding: 10px;
+    color: dimgrey;
+}
+
+.bookmark li:nth-of-type(2n){
+    background-color: darkgrey;
+}
+.bookmark li:nth-of-type(2n+1) {
+    background-color: lightgray;
+}
+.bookmark button {
+    position: absolute;
+    left: 100px;
+    bottom: 10px;
+}
+
+.bookmarkdiff {
+    background-color: lightseagreen;
+}
+
+.bookmarkdiff button {
+    color: lightseagreen;
+    background-color: white;
+}
+
+.bookmarkdiff .okrag {
+    background-color: lightseagreen;
+    border: none;
+}
+.bookmarkdiff .kolo {
+    background-color: white;
+}
+.bookmarkdiff h3 {
+    color: white;
+}
+
+
+
+/*Section D*/
+
+
+
+.sectionD article{
+    float: left;
+    width: 50%;
+}
+
+.artD1 {
+
+}
+.artD1 {
+
+}
+
+.sectionD div:first-of-type input {
+    display: block;
+    margin: 10px 20px;
+    width: 480px;
+    height: 30px;
+}
+div.checkbox label {
+    display: inline-block;
+}
+label, #input {
+    display: inline-block;
+    width: 40%;
+}
+
+
+
+/*Footer*/
+
+footer .container div {
+    float: right;
+}
+
+footer .container div:first-of-type {
+    float: left;
+}
+
+
+
+
+
+
+
+
+
